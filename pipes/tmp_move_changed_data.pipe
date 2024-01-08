@@ -1,0 +1,13 @@
+NODE events_old_to_new_changed
+SQL >
+    select 
+        timestamp,
+        session_id,
+        action,
+        toLowCardinality('100') version,
+        payload
+    from live.demo_analytics_events
+    where session_id = 'f0713d85-e780-4ab4-9974-057914b758ff'
+
+TYPE MATERIALIZED
+DATASOURCE demo_analytics_events
