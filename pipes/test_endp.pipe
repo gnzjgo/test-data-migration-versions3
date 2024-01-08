@@ -1,0 +1,7 @@
+NODE ep
+SQL >
+
+    SELECT * FROM demo_analytics_events
+    where session_id = 'f0713d85-e780-4ab4-9974-057914b758ff'
+
+
