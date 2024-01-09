@@ -1,5 +1,5 @@
 DESCRIPTION >
-    Sample user navigation events based on our starter kit VERSION=0.0.5
+    Sample user navigation events based on our starter kit VERSION=0.0.6
 
 SCHEMA >
     `timestamp` DateTime `json:$.timestamp`,
